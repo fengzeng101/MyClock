@@ -1,18 +1,24 @@
+@font-face {
+  font-family: 'digital-7';
+  src: url('./digital-7.ttf');
+}
 .clock {
   width: 100%;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  font-family: 'digital-7', sans-serif;
   margin: 5px;
+  font-size: 22px;
+  
 
   .digital-clock {
-    padding: 10px;
-    width: 80px;
+    padding: 5px;
+    width: 70px;
     height: 20px;
     background: rgb(10, 10, 10);
-    margin-top: 20px;
+    margin-top: 10px;
 
     color: white;
   }
@@ -52,7 +58,7 @@
     .shadow {
       position: absolute;
       top: 70px;
-      background: rgb(224, 222, 222);
+      background: rgb(216, 215, 221);
       overflow: hidden;
       height: 100px;
       width: 100px;

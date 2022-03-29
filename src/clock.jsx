@@ -35,7 +35,8 @@ export default class Clock extends React.Component {
     const { title } = this.props;
     return (
       <div className={"clock"}>
-        <h3>{title}</h3>
+        {/* <h3>{title}</h3> */}
+        <h3>My Clock</h3>
         <div className={"analog-clock"}>
         <div className={"shadow"}></div>
 
